@@ -1,7 +1,7 @@
 # Личный проект «Погнали» [![Check status][check-image]][check-url]
 
 * Студент: [Вадим Комков](https://up.htmlacademy.ru/adaptive/21/user/1125989).
-* Наставник: `Неизвестно`.
+* Наставник: [Никита Сушко](https://github.com/grygroyev).
 
 ---
 
