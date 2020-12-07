@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Academy: Погнали</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="page-header">
+      <a href="" class="page-header__logo">
+        <img src="https://via.placeholder.com/150x150" class="page-header__logo-image logo-image" alt="логотип" class="page-header__logo-image" width="96" height="15">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <div class="main-nav__wrapper">
+          <a href="" class="main-nav__logo">
+            <img src="" alt="" class="main-nav__logo logo-image">
+          </a>
+          <button class="main-nav__cross">Закрыть</button>
+          <ul class="main-nav-list site-list">
+            <li class="site-list__item">
+              <a href="#" class="site-list__anchor">О СЕРВИСЕ</a>
+            </li>
+            <li class="site-list__item">
+              <a href="directions.html" class="site-list__anchor">НАПРАВЛЕНИЯ</a>
+            </li>
+            <li class="site-list__item">
+              <a href="people.html" class="site-list__anchor">ПОПУТЧИКИ</a>
+            </li>
+          </ul>
+          <button class="simple-button">АВТОРИЗАЦИЯ</button>
+          <a href="tel:88005558628" class="phone">8 800 555-86-28</a>
+          <a href="mailto:mail@htmlacademy.ru" class="mail">MAIL@HTMLACADEMY.RU</a>
+          <ul class="main-nav__social social-list">
+            <li class="social__item">
+              <a href="https://www.facebook.com" class="social__anchor social__anchor--burger social__anchor--facebook" aria-label="Фэйсбук"></a>
+            </li>
+            <li class="social__item">
+              <a href="https://vk.com" class="social__anchor social__anchor--burger social__anchor--vk" aria-label="Вконтакте"></a>
+            </li>
+            <li class="social__item">
+              <a href="https://www.instagram.com" class="social__anchor social__anchor--burger social__anchor--instagram" aria-label="Инстаграм"></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="page-main">
+      <div class="page-main__heading-wrapper">
+        <h1 class="page-main__heading">Попутчики</h1>
+      </div>
+      <section class="catalog">
+        <h2 class="visually-hidden">Все попутчики</h2>
+        <ul class="catalog__list card-list">
+          <li class="card-list__card card-list--red-pin">
+            <div class="card-list__container card-list__container--flex">
+              <img src="" alt="" class="card-list__avatar card-list__avatar--red-heart">
+              <div class="card-list__first-needs-info">
+                <span class="card-list__name card-list__name--red-pin">Таня <br> Фирсова</span>
+                <span class="card-list__cost">1,5 M</span>
+              </div>
+              <div class="card-list__tags">
+                #ЗОЖ #ПП #Фитнес #пляж #авокадо #смузи
+              </div>
+            </div>
+            <div class="card-list__container">
+              <span class="card-list__tittle">хочет посетить:</span>
+              <ul class="card-list__countries">
+                <li class="card-list__country card-list__country--Sri-lanka">ШРИ-ЛАНКА</li>
+                <li class="card-list__country card-list__country--Thailand">ТАИЛАНД</li>
+                <li class="card-list__country card-list__country--Seychelles">СЕЙШЕЛЫ</li>
+              </ul>
+            </div>
+            <div class="card-list__container card-list__container--flex">
+              <div class="card-list__transport">
+                <span class="card-list__tittle">транспорт:</span>
+                <ul class="card-list__transport-list">
+                  <li class="card-list__plane card-list__plane--active"></li>
+                  <li class="card-list__bus"></li>
+                  <li class="card-list__bike"></li>
+                  <li class="card-list__run"></li>
+                </ul>
+              </div>
+              <div class="card-list__level">
+                <span class="card-list__tittle">левел:</span>
+                <div class="card-list__level">
+                  99
+                </div>
+              </div>
+            </div>
+            <button class="card-list__button">ПОЗВАТЬ!</button>
+          </li>
+          <li class="card-list__card">
+            <div class="card-list__container card-list__container--flex">
+              <img src="" alt="" class="card-list__avatar card-list__avatar--heart">
+              <div class="card-list__first-needs-info">
+                <span class="card-list__name card-list__name--red-pin">Петя<br>Демин</span>
+                <span class="card-list__cost">1500</span>
+              </div>
+              <div class="card-list__tags">
+                #бургер #бар #футбол #концерт #крафт
+              </div>
+            </div>
+            <div class="card-list__container">
+              <span class="card-list__tittle">хочет посетить:</span>
+              <ul class="card-list__countries">
+                <li class="card-list__country card-list__country--Belgium">БЕЛЬГИЯ</li>
+                <li class="card-list__country card-list__country--Czech">ЧЕХИЯ</li>
+              </ul>
+            </div>
+            <div class="card-list__container card-list__container--flex">
+              <div class="card-list__transport">
+                <span class="card-list__tittle">транспорт:</span>
+                <ul class="card-list__transport-list">
+                  <li class="card-list__plane card-list__plane--active"></li>
+                  <li class="card-list__bus card-list__bus--active"></li>
+                  <li class="card-list__bike"></li>
+                  <li class="card-list__run card-list__run--active"></li>
+                </ul>
+              </div>
+              <div class="card-list__level">
+                <span class="card-list__tittle">левел:</span>
+                <div class="card-list__level">
+                  80
+                </div>
+              </div>
+            </div>
+            <button class="card-list__button">ПОЗВАТЬ!</button>
+          </li>
+          <li class="card-list__card">
+            <div class="card-list__container card-list__container--flex">
+              <img src="" alt="" class="card-list__avatar card-list__avatar--heart">
+              <div class="card-list__first-needs-info">
+                <span class="card-list__name card-list__name--red-pin">Марк <br> Смолов</span>
+                <span class="card-list__cost">170</span>
+              </div>
+              <div class="card-list__tags">
+                #рэп #тату #хайпбист #кроссовки #суприм
+              </div>
+            </div>
+            <div class="card-list__container">
+              <span class="card-list__tittle">хочет посетить:</span>
+              <ul class="card-list__countries">
+                <li class="card-list__country card-list__country--USA">США</li>
+                <li class="card-list__country card-list__country--Australia">АВСТРАЛИЯ</li>
+                <li class="card-list__country card-list__country--Dominika">ДОМИНИКА</li>
+              </ul>
+            </div>
+            <div class="card-list__container card-list__container--flex">
+              <div class="card-list__transport">
+                <span class="card-list__tittle">транспорт:</span>
+                <ul class="card-list__transport-list">
+                  <li class="card-list__plane card-list__plane--active"></li>
+                  <li class="card-list__bus"></li>
+                  <li class="card-list__bike card-list__bike--active"></li>
+                  <li class="card-list__run"></li>
+                </ul>
+              </div>
+              <div class="card-list__level">
+                <span class="card-list__tittle">левел:</span>
+                <div class="card-list__level">
+                  25
+                </div>
+              </div>
+            </div>
+            <button class="card-list__button">ПОЗВАТЬ!</button>
+          </li>
+          <li class="card-list__card">
+            <div class="card-list__container card-list__container--flex">
+              <img src="" alt="" class="card-list__avatar card-list__avatar---heart">
+              <div class="card-list__first-needs-info">
+                <span class="card-list__name card-list__name--green-pin">Лариса <br>Роговая</span>
+                <span class="card-list__cost">23</span>
+              </div>
+              <div class="card-list__tags">
+                #образование #карьера #учеба #линкедин
+              </div>
+            </div>
+            <div class="card-list__container">
+              <span class="card-list__tittle">хочет посетить:</span>
+              <ul class="card-list__countries">
+                <li class="card-list__country card-list__country--England">ВЕЛИКОБРИТАНИЯ</li>
+                <li class="card-list__country card-list__country--Germany">ГЕРМАНИЯ</li>
+              </ul>
+            </div>
+            <div class="card-list__container card-list__container--flex">
+              <div class="card-list__transport">
+                <span class="card-list__tittle">транспорт:</span>
+                <ul class="card-list__transport-list">
+                  <li class="card-list__plane card-list__plane--active"></li>
+                  <li class="card-list__bus card-list__bus--active"></li>
+                  <li class="card-list__bike"></li>
+                  <li class="card-list__run"></li>
+                </ul>
+              </div>
+              <div class="card-list__level">
+                <span class="card-list__tittle">левел:</span>
+                <div class="card-list__level">
+                  50
+                </div>
+              </div>
+            </div>
+            <button class="card-list__button">ПОЗВАТЬ!</button>
+          </li>
+        </ul>
+        <a href="#" class="catalog__show">Показать еще</a>
+        <div class="catalog__buttons">
+          <button class="catalog__left"></button>
+          <button class="catalog__right"></button>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="page-footer__wrapper">
+        <a href="" class="page-footer__logo">
+          <img src="https://via.placeholder.com/150x150" class="page-footer__logo-image logo-image" alt="логотип" class="page-footer__logo-image" width="96" height="15">
+        </a>
+        <ul class="page-footer__social social-list page-footer__social--yellow-circle">
+          <li class="social__item">
+            <a href="https://www.facebook.com" class="social__anchor social__anchor--burger social__anchor--facebook" aria-label="Фэйсбук"></a>
+          </li>
+          <li class="social__item">
+            <a href="https://vk.com" class="social__anchor social__anchor--burger social__anchor--vk" aria-label="Вконтакте"></a>
+          </li>
+          <li class="social__item">
+            <a href="https://www.instagram.com" class="social__anchor social__anchor--burger social__anchor--instagram" aria-label="Инстаграм"></a>
+          </li>
+          <div class="page-footer__author">
+            <span class="page-footer__create-text"></span>
+            <a href="" class="page-footer__author-logo"></a>
+          </div>
+        </ul>
+      </div>
+    </footer>
+</body>
+</html>

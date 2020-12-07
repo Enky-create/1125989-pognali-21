@@ -1,0 +1,24 @@
+.user-button {
+  @include button-reset;
+  color: $dark-two;
+  background-color: $light-gold;
+  font-weight: bold;
+  border-radius: 2em;
+
+  &--menu {
+    font-family:'BloggerSans-bold', sans-serif;
+    font-size: 5.31vw;
+    line-height: 9.38vw;
+    padding: 0.7em;
+    padding-bottom:0.45em;
+    width: 84.38vw;
+  }
+
+  &:hover {
+    background-color: $special_yellow_dark;
+  }
+
+  &:active {
+    color: rgba(22, 28, 53, 0.3);
+  }
+}

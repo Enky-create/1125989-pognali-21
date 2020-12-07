@@ -1,0 +1,30 @@
+@mixin list-reset {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+@mixin button-reset {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+/*@mixin contact-icon {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: $dark-blue-grey;
+}
+*/

@@ -1,0 +1,49 @@
+.main-nav {
+  font-family: "BloggerSans-medium", sans-serif;
+  font-size: 9.38vw;
+  font-weight: 500;
+}
+
+.main-nav__list {
+  @include list-reset;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-nav__item:not(:first-child) {
+  margin-top: -0.95vw;
+}
+
+.main-nav__anchor {
+  line-height: 10.95vw;
+  display: inline-block;
+  height: 1em;
+  overflow: hidden;
+  color: $dark-blue-grey;
+  text-decoration: none;
+  position: relative;
+}
+
+.main-nav__anchor-text {
+  display: inline-block;
+  transition-duration: 0.3s;
+  transition-property: transform;
+
+  &::before {
+    position: absolute;
+    top: 100%;
+    content: attr(data-hover);
+    transform: translate3d(0, 0, 0);
+  }
+
+  &:hover {
+    transform: translateY(-100%);
+    color: $light-gold;
+  }
+
+  &:active {
+    color: $light-gold;
+    opacity: 0.3;
+  }
+}

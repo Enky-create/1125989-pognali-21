@@ -1,0 +1,39 @@
+.page-header {
+  display: flex;
+  padding: 7.81vw;
+  padding-top: 8.44vw;
+  background-color: white;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.page-header__toggle {
+  @include button-reset;
+  width: 7.81vw;
+  height: 7.81vw;
+  background-image: url("../img/menu-close.svg");
+  background-size: 5.63vw 5.94vw;
+  background-repeat: no-repeat;
+  background-position: center 0;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.page-header__nav {
+  margin-top: 21vw;
+  width: 84.38vw;
+  padding-left: 1vw;
+}
+
+.page-header__user-list {
+  @include list-reset;
+  margin-top: 13.5vw;
+}
+
+.page-header__contacts {
+  @include list-reset;
+  width: 84.38vw;
+  margin-top: 17vw;
+}
